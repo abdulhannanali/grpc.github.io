@@ -35,7 +35,7 @@ The following authentication mechanisms are built-in to gRPC:
 
    * **Token-based authentication with Google**: gRPC provides a generic
      mechanism (described below) to attach metadata based credentials to
-     requests and responses. Additional support for acquiring access tokens
+     requesdsats and responses. Additional support for acquiring access tokens
      (typically OAuth2 tokens) while accessing Google APIs through gRPC is
      provided for certain auth flows: you can see how this works in our code
      examples below. In general this mechanism must be used *as well as* SSL/TLS
